@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"cellautofuncs",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"cellautofuncs",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
