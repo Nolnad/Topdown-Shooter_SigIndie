@@ -2,7 +2,7 @@
 #macro SOLID 1
 #macro CELLSIZE 24
 
-function CountNeighbours(x,y,_map) { // We input the x (or column) and y (or row) of the cell we want to access, as well as the map we are using
+function CountNeighbours(X,Y,_map) { // We input the x (or column) and y (or row) of the cell we want to access, as well as the map we are using
     ///@func    CountNeighbours(x,y,_map);
     ///@param   x               The current cell's x position
     ///@param   y               The current cell's y position
@@ -11,8 +11,8 @@ function CountNeighbours(x,y,_map) { // We input the x (or column) and y (or row
     var _count = 0; // This will keep track of how many neighbours are solid
     for (var dx=-1;dx<2;dx++) { 
         for (var dy=-1;dy<2;dy++) { // Double for loop again, but this time a variant explained below
-            var xx = x+dx; // Get the x position of the neighbour cell
-            var yy = y+dy; // Get the y position of the neighbour cell
+            var xx = X+dx; // Get the x position of the neighbour cell
+            var yy = Y+dy; // Get the y position of the neighbour cell
             if (xx < 0 || yy < 0 || xx >= map_width || yy >= map_height) { // If the neighbour cell we are trying to check is out of bounds
                      
                 /* We have two choices here: either act as though any neighbours outside of the
@@ -28,7 +28,10 @@ function CountNeighbours(x,y,_map) { // We input the x (or column) and y (or row
             else {
                 var _neighbour = _map[xx][yy]; // Get the value of the neighbour cell
                 if (_neighbour == SOLID) { // If the value of the neighbour is SOLID
-                    _count++; // Add to the solid count
+					if (dx == -1 && dy = 0) || (dx == 1 && dy = 0)
+						_count += 2;
+					else 
+						_count++; // Add to the solid count
                 }
             }
         }

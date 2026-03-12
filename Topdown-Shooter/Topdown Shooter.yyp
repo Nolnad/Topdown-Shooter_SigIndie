@@ -32,6 +32,7 @@
     {"id":{"name":"oBulletHit","path":"objects/oBulletHit/oBulletHit.yy",},},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
     {"id":{"name":"oCellularGen","path":"objects/oCellularGen/oCellularGen.yy",},},
+    {"id":{"name":"oController","path":"objects/oController/oController.yy",},},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},},
     {"id":{"name":"oFullScr","path":"objects/oFullScr/oFullScr.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
