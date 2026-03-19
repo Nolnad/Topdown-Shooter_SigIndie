@@ -28,9 +28,6 @@ function CountNeighbours(X,Y,_map) { // We input the x (or column) and y (or row
             else {
                 var _neighbour = _map[xx][yy]; // Get the value of the neighbour cell
                 if (_neighbour == SOLID) { // If the value of the neighbour is SOLID
-					if (dx == -1 && dy = 0) || (dx == 1 && dy = 0)
-						_count += 2;
-					else 
 						_count++; // Add to the solid count
                 }
             }

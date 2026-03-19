@@ -29,10 +29,29 @@ current_weapon.z = z;
 current_weapon.x = x;
 current_weapon.y = y;
 
+var hspd_calc = hspd
+var vspd_calc = vspd
+
+if(place_meeting(x+hspd_calc,y,oSolid))
+{
+	while (!place_meeting(x+sign(hspd_calc),y,oSolid))
+	{
+		x+= sign(hspd_calc);
+	}
+	hspd_calc = 0
+}
+if(place_meeting(x,y+vspd_calc,oSolid))
+{
+	while (!place_meeting(x,y+sign(vspd_calc),oSolid))
+	{
+		y+= sign(vspd_calc);
+	}
+	vspd_calc = 0
+}
 
 z += zspd;
-x += hspd;
-y += vspd;
+x += hspd_calc;
+y += vspd_calc;
 
 if z <= z_floor {
 	z = 0;

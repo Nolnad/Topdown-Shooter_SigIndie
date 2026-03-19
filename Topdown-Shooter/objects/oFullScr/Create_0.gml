@@ -1,6 +1,6 @@
 ///Properties
 ideal_width=0; //Doesn't matter because we are going to calculate this.
-ideal_height=260;
+ideal_height=760;
 zoom=.5;
 max_zoom=1;
 use_sub_pixels=false;

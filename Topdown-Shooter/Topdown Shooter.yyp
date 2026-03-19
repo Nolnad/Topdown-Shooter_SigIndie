@@ -42,6 +42,7 @@
     {"id":{"name":"r1","path":"rooms/r1/r1.yy",},},
     {"id":{"name":"cellautofuncs","path":"scripts/cellautofuncs/cellautofuncs.yy",},},
     {"id":{"name":"CustomAddons","path":"scripts/CustomAddons/CustomAddons.yy",},},
+    {"id":{"name":"DrunkenWalker","path":"scripts/DrunkenWalker/DrunkenWalker.yy",},},
     {"id":{"name":"shFlash","path":"shaders/shFlash/shFlash.yy",},},
     {"id":{"name":"shTest","path":"shaders/shTest/shTest.yy",},},
     {"id":{"name":"sBG","path":"sprites/sBG/sBG.yy",},},
