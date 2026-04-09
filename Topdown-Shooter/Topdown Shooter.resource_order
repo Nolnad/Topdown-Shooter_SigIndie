@@ -8,6 +8,7 @@
   "ResourceOrderSettings":[
     {"name":"oCamera","order":1,"path":"objects/oCamera/oCamera.yy",},
     {"name":"oController","order":4,"path":"objects/oController/oController.yy",},
+    {"name":"oLighting","order":5,"path":"objects/oLighting/oLighting.yy",},
     {"name":"oSolid","order":3,"path":"objects/oSolid/oSolid.yy",},
     {"name":"r0","order":1,"path":"rooms/r0/r0.yy",},
     {"name":"cellautofuncs","order":1,"path":"scripts/cellautofuncs/cellautofuncs.yy",},

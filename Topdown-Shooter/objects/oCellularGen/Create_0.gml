@@ -10,5 +10,4 @@ repeat(1) {
 	cell_map = drunken_walker(cell_map,300,2,x_center,y_center)
 }
 
-
 CreateWalls(cell_map,0,0);
