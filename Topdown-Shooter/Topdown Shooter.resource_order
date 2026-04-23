@@ -13,6 +13,7 @@
     {"name":"r0","order":1,"path":"rooms/r0/r0.yy",},
     {"name":"cellautofuncs","order":1,"path":"scripts/cellautofuncs/cellautofuncs.yy",},
     {"name":"DrunkenWalker","order":2,"path":"scripts/DrunkenWalker/DrunkenWalker.yy",},
+    {"name":"sEnemyDead","order":2,"path":"sprites/sEnemyDead/sEnemyDead.yy",},
     {"name":"sSolid","order":1,"path":"sprites/sSolid/sSolid.yy",},
   ],
 }

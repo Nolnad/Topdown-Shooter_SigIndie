@@ -51,6 +51,7 @@
     {"id":{"name":"sBulletHit","path":"sprites/sBulletHit/sBulletHit.yy",},},
     {"id":{"name":"sCheese","path":"sprites/sCheese/sCheese.yy",},},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},},
+    {"id":{"name":"sEnemyDead","path":"sprites/sEnemyDead/sEnemyDead.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
     {"id":{"name":"sSolid","path":"sprites/sSolid/sSolid.yy",},},
   ],
